@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CRHash</title>
+</head>
+<body>
+  <div style="width: 100%; text-align: center">
+    <h3>Hash/Dehash PS IDs</h3>
+  </div>
+  <div style="display:block; height: 50px; width: 100%; text-align: left; vertical-align: middle">
+    <label for="idToHashDehash">Value</label>
+    <input type="text" id="idToHashDehash" placeholder="number or hash"/>
+  </div>
+  <div style="display:block; height: 40px; width: 100%; text-align: center; vertical-align: middle">
+    <button id="hashButton">Hash</button><button id="dehashButton">Dehash</button>
+  </div>
+  <div style="display:block; width: 100%; text-align: center">
+    <h3 id="errorMessage" style="height: 30px; width: 100%; color: red; font-weight: bold;"></h3>
+  </div>
+  <br/>
+  <div style="width: 100%; text-align: center">[<a id="optionsLink" href="#">Options</a>]</div>
+</body>
+<script src="jquery.min.js"></script>
+<script src="hashids.js"></script>
+<script src="lib.js"></script>
+</html>
